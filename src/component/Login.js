@@ -28,8 +28,6 @@ const Login = () => {
       }
     },
     validate: (values) => {
-      //   const isName = /^[a-zA-Z]{3,15}$/gm;
-      //   const isNumber = /^[9876][0-9]{9}$/gm;
       let error = {};
       const isEmail = /^[a-zA-Z0-9]{3,}@[a-zA-Z]{3,}.[a-zA-Z]{2,3}$/gm;
       // const isPassword =
